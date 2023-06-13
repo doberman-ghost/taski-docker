@@ -96,9 +96,9 @@ jobs:
       - name: Set up nodeJS
       # Это готовый воркфлоу для установки Node.js на раннер
         uses: actions/setup-node@v3
-          with:
+        with:
         # Это параметр воркфлоу, указывающий нужную версию Node.js
-            node-version: 18
+          node-version: 18
 
       - name: Install dependencies
       # Эта команда устанавливает зависимости для фронтенда
