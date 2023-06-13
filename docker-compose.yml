@@ -39,8 +39,6 @@ services:
       - static:/frontend_static
   
   gateway:
-    # Сбилдить и запустить образ, 
-    # описанный в Dockerfile в папке gateway
     build: ./gateway/
     volumes:
       - static:/staticfiles/
